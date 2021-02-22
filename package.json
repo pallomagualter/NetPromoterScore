@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/pallomagualter/NetPromoterScore.git",
   "author": "Palloma Gualter <pallomagualter@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
