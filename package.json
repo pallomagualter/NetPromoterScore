@@ -5,6 +5,9 @@
   "repository": "https://github.com/pallomagualter/NetPromoterScore.git",
   "author": "Palloma Gualter <pallomagualter@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
