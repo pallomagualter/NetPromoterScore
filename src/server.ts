@@ -1,6 +1,13 @@
-import express, { request, response } from 'express';
+import express from 'express';
+
+import routes from './routes';
 
 const app = express();
+app.use(routes);
+
+
+app.listen(3333, () => console.log("Server is running!"));
+
 
 /**
  * GET => BUSCAR
@@ -9,14 +16,3 @@ const app = express();
  * DELETE => DELETAR
  * PATCH => ALTERAÇÃO ESPECÍFICA
  */
-
-app.get("/users", (request, response) => {
-    return response.json( { message: "Hello World - NLW-04"} )
-});
-
-app.post("/", (request, response) => {
-    //assumindo que os dados foram recebidos e salvos e retornando mensagem para o usuário
-    return response.json({ message: "Dados salvos com sucesso! "})
-});
-
-app.listen(3333, () => console.log("Server is running!"));
