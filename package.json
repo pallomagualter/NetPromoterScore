@@ -1,0 +1,8 @@
+{
+  "name": "NetPromoterScore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pallomagualter/NetPromoterScore.git",
+  "author": "Palloma Gualter <pallomagualter@gmail.com>",
+  "license": "MIT"
+}
